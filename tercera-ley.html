@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tercera Ley de Newton</title>
+    <link rel="stylesheet" href="Ley3.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body class="cuerpo">
+    <header class="cabezera">
+        <div>
+
+            <a class="botones " href="segunda-ley.html" role="button">Segunda ley de Newton</a>
+            <h1 class="titulo">Tercera Ley de Newton</h1>
+            <a class="botones " href="index.html" role="button">Inicio</a>
+            <a class="botones " href="Juego.html" role="button">Plays</a>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <div class="introducion">
+            <p>La Tercera Ley de Newton, también conocida como la Ley de Acción y Reacción, establece que por cada
+                acción hay una reacción igual y opuesta. Esto significa que cuando un objeto ejerce una fuerza sobre
+                otro objeto, el segundo objeto ejerce una fuerza de igual magnitud pero en dirección opuesta sobre el
+                primer objeto. Esta ley se aplica a todas las interacciones entre objetos en el universo y es
+                fundamental para entender la dinámica de los sistemas físicos.</p>
+            <p> se puede observar en muchos ejemplos, como cuando caminamos, nadamos o conducimos un automóvil. Al
+                caminar, empujamos hacia atrás contra el suelo con nuestros pies, y el suelo empuja hacia adelante con
+                una fuerza igual y opuesta, permitiéndonos avanzar. Cuando nadamos, empujamos el agua hacia atrás con
+                nuestras manos y pies, y el agua empuja hacia adelante con una fuerza igual y opuesta, permitiéndonos
+                avanzar en el agua. En la conducción de un automóvil, las fuerzas de empuje y tracción de las ruedas
+                contra el pavimento son ejemplos de la Tercera Ley de Newton en acción.
+
+                En esta página web, encontrarás información detallada sobre la Tercera Ley de Newton, ejemplos
+                prácticos, y recursos educativos para ayudarte a comprender mejor este importante principio físico.</p>
+        </div>
+        <div class="containerVideo">
+
+            <video class="video" src="img/Tercera ley de Newton.mp4 " width="640" height="360" controls></video>
+            <p><b>Creditos a Fisica Aplicada</b></p>
+
+        </div>
+        <div>
+            <img class="ley2-pagina" src="img/diagrama-cuerpo-libre-ejemplo.jpg" alt="f*a" width="600px">
+        </div>
+        <div class="containerCalculadora">
+            <h3>Formulas</h3>
+            <ul>
+                <li>Fórmula para calcular el peso: <strong>P = m * g</strong>, donde P es el peso en newtons (N), m es la masa en kilogramos (kg), y g es la aceleración debido a la gravedad, que es aproximadamente 9.81 m/s².</li>
+                <li>Fórmula para calcular la normal: <strong>N = P * cos(θ) + F<sub>a</sub> * sin(θ)</strong>, donde N es la normal en N, P es el peso en N, θ es el ángulo de inclinación en grados, y F<sub>a</sub> es la fuerza aplicada en N.</li>
+                <li>Fórmula para calcular la fuerza de fricción: <strong>f<sub>f</sub> = μ * N</strong>, donde f<sub>f</sub> es la fuerza de fricción en N y μ es el coeficiente de fricción.</li>
+              </ul>
+            <h3>Calculadora de Masa, Fuerza y Aceleracion</h3>
+            <div class="before-calcualdora">
+                <div class="calculadora">
+                    <label for="masa">Masa (kg):</label>
+                    <input type="number" id="masa" required><br>
+        
+                    <label for="angulo">Ángulo (°):</label>
+                    <input type="number" id="angulo" required><br>
+        
+                    <label for="coeficiente-friccion">Coeficiente de Fricción:</label>
+                    <input type="number" id="coeficiente-friccion" required><br>
+        
+                    <label for="fuerza-aplicada">Fuerza Aplicada (N):</label>
+                    <input type="number" id="fuerza-aplicada" required><br>
+        
+                    <button class="botones" type="button" onclick="calcular()">Calcular</button><br><br>
+                    <div class="resultado"><label for="peso">Peso (N):</label>
+                        <output id="peso"></output><br>
+        
+                        <label for="normal">Normal (N):</label>
+                        <output id="normal"></output><br>
+        
+                        <label for="fuerza-friccion">Fuerza de Fricción (N):</label>
+                        <output id="fuerza-friccion"></output><br>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        
+
+
+    </div>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+<script src="js/3ley.js"></script>
+
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda Ley de Newton</title>
+    <link rel="stylesheet" href="Ley2.css">
+    <link rel="stylesheet" href=reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body class="cuerpo">
+    <header class="cabezera">
+        <div>
+            <a class="botones " href="index.html" role="button">Inicio</a>
+            <a class="botones btn-atras" href="primera-ley.html" role="button">Primera ley de Newton</a>
+            <h1 class="titulo">Segunda Ley de Newton</h1>
+            <a class="botones" href="tercera-ley.html" role="button">Tercera ley de Newton</a>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <div class="introducion">
+            <p>La Segunda Ley de Newton es una ley fundamental de la física que describe la relación entre la fuerza, la
+                masa y la aceleración de un objeto. Esta ley establece que la fuerza neta que actúa sobre un objeto es
+                igual a su masa multiplicada por su aceleración, es decir, F = m * a. Esta ecuación significa que cuanto
+                mayor sea la fuerza neta que actúa sobre un objeto, mayor será su aceleración. Por otro lado, cuanto
+                mayor sea la masa del objeto, menor será su aceleración para una fuerza dada.</p>
+            <p> Es una de las leyes más importantes de la física y se utiliza en una amplia
+                variedad de aplicaciones en la vida cotidiana y en la ciencia. Esta ley ayuda a explicar el movimiento
+                de objetos grandes, como coches y aviones, así como el movimiento de objetos pequeños, como pelotas y
+                electrones. También se aplica en campos como la ingeniería, la aeronáutica, la astrofísica, la medicina
+                y muchos otros.
+
+                En esta página web, encontrarás información detallada sobre la Segunda Ley de Newton, ejemplos
+                prácticos, y recursos educativos para ayudarte a comprender mejor este importante principio físico.</p>
+        </div>
+
+        <div class="containerVideo">
+
+            <video class="video" src="img/Segunda ley de Newton.mp4" width="640" height="360" controls></video>
+            <p><b>Creditos a Fisica Aplicada</b></p>
+
+        </div>
+        <div>
+            <img class="ley2-pagina" src="img/2ley-pagina.jpg" alt="f*a" width="600px">
+        </div>
+        <div class="containerCalculadora">
+            <h3>Formulas</h3>
+            <ul>
+                <li>Fórmula para calcular la fuerza neta: <strong>F = m * a</strong></li>
+                <li>Fórmula para calcular la masa: <strong>m = F / a</strong></li>
+                <li>Fórmula para calcular la aceleración: <strong>a = F / m</strong></li>
+            </ul>
+            <h3>Calculadora de Masa, Fuerza y Aceleracion</h3>
+            <div class="before-calcualdora">
+                <div class="calculadora ">
+                    <label for="fuerza">Introduce la fuerza N:</label>
+                    <input name="fuerza" type="number" id="fuerza">
+
+                    <label for="masa">Introduce la masa Kg:</label>
+                    <input name="masa" type="number" id="masa">
+
+                    <label for="aceleracion">Introduce la aceleración m/s^2:</label>
+                    <input name="aceleracion" type="number" id="aceleracion">
+
+                    <button class="botones" onclick="calcular()">Calcular</button>
+
+                    <p>Resultado: <br> <span id="resultado"></span></p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+<script src="js/2ley.js"></script>
+
+</html>

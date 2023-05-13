@@ -1,0 +1,26 @@
+.titulo{
+    text-align: center;
+    text-decoration: solid;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+
+.containerIframe1{
+    border: 2px solid var(--color-naranja);
+    border-radius: 5px;
+    padding: 2rem;
+    margin: 2rem;
+    box-shadow: 2px 2px 4px var(--color-naranja);
+}
+
+.containerIframe2{
+    border: 2px solid var(--color-azul);
+    border-radius: 5px;
+    padding: 2rem;
+    margin: 2rem;
+    box-shadow: 2px 2px 4px var(--color-azul);
+}

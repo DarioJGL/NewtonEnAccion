@@ -1,0 +1,26 @@
+body .cabezera {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    background-color: #2d9cdb;
+}
+
+header .btn {
+    display: inline-block;
+    
+}
+
+header .titulo {
+    display: inline-block;
+    
+}
+.gif{
+    box-shadow: 2px 2px 4px var(--color-azul), -2px -2px 4px var(--color-azul), 2px -2px 4px var(--color-azul),
+    -2px 2px 4px var(--color-azul);
+    
+}
+
+
+

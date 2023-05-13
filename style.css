@@ -1,0 +1,105 @@
+:root {
+    --color-azul: #2d9cdb;
+    --color-naranja: #dd7017;
+}
+.cuerpo {
+    background: #f6f1f1;
+    height: 617px;
+}
+.cabezera {
+    background-color: var(--color-azul);
+    margin-bottom: 2rem;
+    box-shadow: 2px 2px 4px #1071aa;
+}
+.titulo {
+    text-align: center;
+    text-decoration: solid;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.introducion p{
+    text-align: justify;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Leyes {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+}
+.card {
+    margin: 1.5rem;
+    background-color: var(--color-azul);
+    box-shadow: 2px 2px 4px #dd7017;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #1071aa;
+    box-shadow: 2px 2px 4px #df6808;
+}
+
+.card:hover .card-body {
+    background-color: #df6808;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+    background-color: var(--color-naranja);
+    border-radius: 5px;
+    border: 1px solid #dd7017;
+}
+
+.card-title {
+    color: black;
+    text-decoration: none !important;
+}
+
+.card-body a {
+    text-decoration: none;
+}
+
+.botones {
+    background-color: #ffa07a;
+    color: black;
+    box-shadow: 2px 2px 4px #dd7017;
+    text-shadow: 1px 1px #dd7017;
+    border: 1px solid #dd7017;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.botones:hover {
+    background-color: #f86429;
+    color: rgb(255, 255, 255);
+    padding: 0.6rem;
+}
+
+.hiperlink {
+    text-decoration: none;
+}
+
+.video {
+    box-shadow: 2px 2px 4px #dd7017, -2px -2px 4px #dd7017, 2px -2px 4px #dd7017,
+        -2px 2px 4px #dd7017;
+}
+
+.containerVideo:hover{
+    transform: scale(1.05);
+}
+
+.introducion{
+    margin: 0.6rem;
+}

@@ -1,0 +1,57 @@
+body .cabezera {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    background-color: #2d9cdb;
+}
+
+header .btn {
+    display: inline-block;
+}
+
+header .titulo {
+    display: inline-block;
+}
+
+.btn-atras {
+    margin-left: 1rem;
+}
+.ley2-pagina{
+    border: 2px solid var(--color-azul);
+    border-radius: 5px;
+    margin: 2rem;
+    box-shadow: 2px 2px 4px var(--color-azul);
+}
+.containerCalculadora{
+    border: 2px solid var(--color-azul);
+    border-radius: 5px;
+    padding: 2rem;
+    margin: 2rem;
+    box-shadow: 2px 2px 4px var(--color-azul);
+}
+
+.calculadora {
+    width: 17rem;
+    background-color: #2d9cdb;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    box-shadow: 2px 2px 4px #dd7017, -2px -2px 4px #dd7017, 2px -2px 4px #dd7017,
+        -2px 2px 4px #dd7017;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid #dd7017;
+    margin: 2rem auto;
+}
+.calculadora input{
+    width: 15rem;
+    margin-bottom: 0.8rem ;
+    margin-top: 0.4rem;
+    border-radius: 5px;
+    border: 1px solid #dd7017;
+}
+.calculadora .botones{
+    margin-bottom: 0.8rem ;
+    width: 15rem;
+}
