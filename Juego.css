@@ -17,12 +17,49 @@
     padding: 2rem;
     margin: 2rem;
     box-shadow: 2px 2px 4px var(--color-naranja);
+    
 }
-
 .containerIframe2{
     border: 2px solid var(--color-azul);
     border-radius: 5px;
     padding: 2rem;
     margin: 2rem;
     box-shadow: 2px 2px 4px var(--color-azul);
+}
+.iframe{
+    width: 750px;
+    height: 570px;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .cabezera div div {
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        margin: 0;
+        width: 100%;
+    }
+    .logo{
+        margin: 0;
+        margin-left: 2rem;
+    }
+    .extras{
+        margin: 1rem;
+    }
+    .titulo{
+        padding: 0.7rem;
+        margin: 0;
+    }
+    .botones{
+        margin: 0.5rem;
+    }
+    .inicio-btn{
+        width: 174.89px;
+    }
+    .juego{
+        width: 25%;
+    }
+
 }

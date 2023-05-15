@@ -40,8 +40,7 @@ header .titulo {
     background-color: #2d9cdb;
     padding-left: 1rem;
     padding-top: 1rem;
-    box-shadow: 2px 2px 4px #dd7017, -2px -2px 4px #dd7017, 2px -2px 4px #dd7017,
-        -2px 2px 4px #dd7017;
+    box-shadow: 2px 2px 4px #dd7017, -2px -2px 4px #dd7017, 2px -2px 4px #dd7017,-2px 2px 4px #dd7017;
     border-radius: 5px;
     font-weight: bold;
     border: 1px solid #dd7017;
@@ -63,4 +62,40 @@ header .titulo {
 }
 .introducion{
     margin: 1rem;
+}
+@media screen and (max-width: 768px) {
+    .cabezera div div {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        margin: 0;
+        margin-left: 4rem;
+    }
+    .extras{
+        margin: 1rem;
+        margin-right: 0;
+        
+    }
+    .titulo{
+        padding: 0.7rem;
+        margin: 0;
+    }
+    .botones{
+        margin: 0.5rem;
+    }
+    .inicio-btn{
+        width: 186.64px;
+        order: 1;
+    }
+    .ley3-pagina{
+        margin: 0;
+    }
+    .plays{
+        width: 186.64px;
+    }
+    .ley3{
+        width: 25%;
+    }
+
 }

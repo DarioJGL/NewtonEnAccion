@@ -28,6 +28,29 @@ header .titulo {
 .introducion{
     margin: 1rem;
 }
+@media screen and (max-width: 768px) {
+    .cabezera div div {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        margin: 0;
+        margin-left: 2rem;
+    }
+    .extras{
+        margin: 1rem;
+    }
+    .titulo{
+        padding: 0.7rem;
+        margin: 0;
+    }
+    .botones{
+        margin: 0.5rem;
+    }
+    .inicio-btn{
+        width: 186.64px;
+    }
 
+}
 
 

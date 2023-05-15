@@ -51,7 +51,7 @@
 .Leyes {
     display: flex;
     flex-direction: row;
-    margin: 2rem;
+    margin: 1rem;
     margin-top: 0rem;
     margin-bottom: 0rem;
 }
@@ -113,6 +113,8 @@
 }
 
 .video {
+    width: 960px;
+    height: 540px;
     box-shadow: 2px 2px 4px #dd7017, -2px -2px 4px #dd7017, 2px -2px 4px #dd7017,
         -2px 2px 4px #dd7017;
 }
@@ -121,13 +123,17 @@
     transform: scale(1.03);
 }
 
+.gif {
+    width: 960px;
+    height: 540px;
+}
 .app-btn {
     margin: 0.9rem;
 }
 .botonesAPP {
     background-color: #2d9cdb;
     color: black;
-    box-shadow: 2px 2px 4px  #1280c0;
+    box-shadow: 2px 2px 4px #1280c0;
     text-shadow: 1px 1px #1280c0;
     border: 1px solid #1280c0;
     padding: 0.5rem;
@@ -138,7 +144,7 @@
     background-color: #1280c0;
     color: rgb(255, 255, 255);
     padding: 0.6rem;
-}   
+}
 footer {
     background-color: var(--color-naranja);
     display: flex;
@@ -149,4 +155,55 @@ footer p {
 }
 .footer {
     margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .introducion p {
+        margin: 0.8rem;
+    }
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+    .Leyes {
+        flex-direction: column;
+    }
+    .video {
+        width: 384px;
+        height: 216px;
+    }
+    .ley2-pagina {
+        width: 384px;
+        height: 216px;
+    }
+    .ley3-pagina {
+        width: 384px;
+        height: 216px;
+    }
+    .gif {
+        width: 384px;
+        height: 216px;
+    }
+    
+    .titulo{
+        order: 1;
+    }
+    .botones{ 
+        order: 2;
+    }
+    .app-btn{
+        display: flex;
+        flex-direction: column;
+    }
+    .botonesAPP{
+        margin-bottom: 1rem;
+    }
+    .plays{
+        width: 100%;
+        text-align: center;
+    }
+    footer {
+        margin-top: 1rem;
+        align-items: center;
+    }
 }
