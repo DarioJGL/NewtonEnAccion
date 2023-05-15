@@ -15,8 +15,11 @@ header .titulo {
     display: inline-block;
 }
 
-.btn-atras {
-    margin-left: 1rem;
+.btn-delante {
+    margin-right: 1rem;
+}
+.ley3{
+    width: 15%;
 }
 .ley2-pagina{
     border: 2px solid var(--color-azul);

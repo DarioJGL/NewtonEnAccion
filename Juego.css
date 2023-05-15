@@ -8,7 +8,9 @@
     margin-right: 1rem;
     
 }
-
+.juego{
+    width: 15%;
+}
 .containerIframe1{
     border: 2px solid var(--color-naranja);
     border-radius: 5px;

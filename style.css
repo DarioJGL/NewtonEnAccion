@@ -8,30 +8,25 @@
 }
 .cabezera {
     background-color: var(--color-azul);
-    margin-bottom: 2rem;
-    box-shadow: 2px 2px 4px #1071aa;
+    margin-bottom: 1rem;
+    box-shadow: 2px 2px 4px var(--color-naranja);
     width: 100%;
-    
 }
 
 .cabezera div {
     display: flex;
     align-items: center;
-    
 }
-.div-logo{
-    width: 30%;
-}
-.div-logo{
-    margin: 1rem;
+.inicio {
+    width: 33%;
 }
 
 .logo {
     width: 100px;
     height: 100px;
-    border-radius: 2%;
-    margin: 2rem ;
-    margin-bottom: 2rem;
+    border-radius: 5%;
+    margin: 1.5rem;
+    margin-bottom: 1.5rem;
     border: 2px solid var(--color-naranja);
 }
 
@@ -42,10 +37,10 @@
     font-weight: bold;
     text-transform: uppercase;
     padding: 2rem;
-   
 }
 .introducion p {
     text-align: justify;
+    margin: 0.2rem;
 }
 .container {
     display: flex;
@@ -57,6 +52,8 @@
     display: flex;
     flex-direction: row;
     margin: 2rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
 }
 .card {
     margin: 1.5rem;
@@ -95,11 +92,11 @@
 }
 
 .botones {
-    background-color: #ffa07a;
+    background-color: var(--color-naranja);
     color: black;
-    box-shadow: 2px 2px 4px #dd7017;
-    text-shadow: 1px 1px #dd7017;
-    border: 1px solid #dd7017;
+    box-shadow: 2px 2px 4px #dd7100;
+    text-shadow: 1px 1px #dd7100;
+    border: 1px solid #dd7100;
     padding: 0.5rem;
     border-radius: 5px;
     text-decoration: none;
@@ -124,6 +121,32 @@
     transform: scale(1.05);
 }
 
-.introducion {
-    margin: 0.6rem;
+.app-btn {
+    margin: 0.9rem;
+}
+.botonesAPP {
+    background-color: #2d9cdb;
+    color: black;
+    box-shadow: 2px 2px 4px  #1280c0;
+    text-shadow: 1px 1px #1280c0;
+    border: 1px solid #1280c0;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.botonesAPP:hover {
+    background-color: #1280c0;
+    color: rgb(255, 255, 255);
+    padding: 0.6rem;
+}   
+footer {
+    background-color: var(--color-naranja);
+    display: flex;
+}
+footer p {
+    font-weight: bold;
+    margin: 0;
+}
+.footer {
+    margin: auto;
 }
