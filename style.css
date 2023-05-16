@@ -153,6 +153,9 @@ p {
     width: 960px;
     margin: 1rem;
 }
+.containerEjercicios{
+    margin: auto;
+}
 
 .tituloEjercicios h3 {
     margin: 0;
@@ -214,10 +217,13 @@ footer p {
         width: 384px;
         height: 216px;
     }
-    .gif,
-    .ejercicios {
+    .gif {
         width: 384px;
         height: 216px;
+    }
+    .ejercicios {
+        width: 384px;
+        height: 450px;
     }
 
     .titulo {
