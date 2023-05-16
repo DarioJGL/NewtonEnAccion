@@ -18,7 +18,7 @@
     align-items: center;
 }
 .inicio {
-    width: 33%;
+    margin: auto;
 }
 
 .logo {
@@ -167,7 +167,7 @@ p {
     padding: 2rem;
     box-shadow: 2px 2px 4px #dd7017, -2px -2px 4px #dd7017, 2px -2px 4px #dd7017,
         -2px 2px 4px #dd7017;
-    
+    border-radius: 5px;
 }
 .ejercicios div {
     margin-top: 1rem;
@@ -176,7 +176,7 @@ p {
     border: 1px solid black;
     border-radius: 5px;
 }
-.btn-respuesta{
+.btn-respuesta {
     margin: 1rem 0rem;
 }
 footer {
@@ -191,7 +191,7 @@ footer p {
     margin: auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
     .introducion p {
         margin: 0.8rem;
     }
@@ -214,7 +214,8 @@ footer p {
         width: 384px;
         height: 216px;
     }
-    .gif {
+    .gif,
+    .ejercicios {
         width: 384px;
         height: 216px;
     }
@@ -239,5 +240,10 @@ footer p {
     footer {
         margin-top: 1rem;
         align-items: center;
+    }
+}
+@media screen and (max-width: 450px) {
+    .foto {
+        display: none;
     }
 }

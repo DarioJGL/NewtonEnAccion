@@ -84,7 +84,10 @@ header .titulo {
         width: 178.92px;
     }
     .ley2-pagina{
+        width: 384px;
         margin: 0;
     }
-
+    .containerCalculadora{
+        width: 384px;
+    }
 }

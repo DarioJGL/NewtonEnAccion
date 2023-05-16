@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tercera Ley de Newton</title>
-    
+
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="Ley3.css">
@@ -104,27 +104,39 @@
         <div class="ejercicios">
             <div>
                 <h4>Ejemplo:</h4>
-                <p><strong>Ej.</strong> Un objeto de 5 kg está en reposo sobre una superficie horizontal sin fricción.
-                    ¿Cuál
-                    es la fuerza neta
-                    que actúa sobre el objeto?</p>
+                <p><strong>Ej.</strong> ¿Cuál es la fórmula para calcular la fuerza de fricción?<br>
+                    A. μ * N <br>
+                    B. m * g <br>
+                    C. P * cos(θ) + Fa * sin(θ)</p>
                 <div>
                     <h5>Respuesta:</h5>
-                    La fuerza neta es cero, ya que el objeto está en reposo y no hay fuerzas externas actuando sobre él.
+                    Respuesta correcta: A. f<sub>f</sub> = μ * N
                     </p>
                 </div>
             </div>
 
             <div>
                 <h4>Ejercicio 1:</h4>
-                <p><strong>1.</strong> Un automóvil se desplaza a una velocidad constante de 100 km/h en una autopista
-                    recta y nivelada. ¿Cuál es la fuerza neta que actúa sobre el automóvil?</p>
+                <p><strong>1.</strong> Un objeto de masa 5 kg se encuentra en reposo sobre una superficie inclinada a un
+                    ángulo de 30 grados. Si el coeficiente de fricción entre el objeto y la superficie es 0.2, ¿cuál es
+                    la fuerza de fricción que actúa sobre el objeto?</p>
                 <button class="botones btn-respuesta" id="respuesta-btn1"
-                    onclick="mostrarRespuesta('respuesta-div1', 'respuesta-btn1', 'ocultar-btn1')">Ver Respuesta</button>
+                    onclick="mostrarRespuesta('respuesta-div1', 'respuesta-btn1', 'ocultar-btn1')">Ver
+                    Respuesta</button>
                 <div class="respuesta" id="respuesta-div1" style="display: none;">
                     <h5>Respuesta:</h5>
-                    <p>La fuerza neta es cero, ya que el automóvil se mueve a velocidad constante sin aceleración y sin
-                        fuerzas externas.</p>
+                    <p>Primero, calculemos el peso del objeto utilizando la fórmula P = m * g:
+                        P = 5 kg * 9.81 m/s² = 49.05 N<br>
+                        Luego, calculemos la normal utilizando la fórmula N = P * cos(θ) + Fa * sin(θ):<br>
+                        θ = 30 grados<br>
+                        Fa = 0, al estar en reposo<br>
+                        N = 49.05 N * cos(30°) + 0 * sin(30°)<br>
+                        N = 42.48 N <br>
+                        Calculando el valor de f<sub>f</sub>:<br>
+                        f<sub>f</sub> = μ * N<br>
+                        f<sub>f</sub> ≈ (0.2 * 42.48 N)<br>
+                        f<sub>f</sub> ≈ 8.500 N<br>
+                    </p>
                 </div>
                 <button class="botones" id="ocultar-btn1"
                     onclick="ocultarRespuesta('respuesta-div1', 'respuesta-btn1', 'ocultar-btn1')"
@@ -133,14 +145,26 @@
 
             <div>
                 <h4>Ejercicio 2:</h4>
-                <p><strong>2.</strong> Un satélite orbita alrededor de la Tierra sin cambiar su velocidad. ¿Cuál es la
-                    fuerza neta que actúa sobre el satélite?</p>
+                <p><strong>2.</strong> Un objeto de masa 2 kg se encuentra sobre una superficie inclinada a un ángulo de
+                    45 grados con una Fuerz aplicada de 15N. Si la Coeficiente de fricción es de 0.8115, ¿cuál es la
+                    fuerza
+                    Fricción sobre el objeto?</p>
                 <button class="botones btn-respuesta" id="respuesta-btn2"
                     onclick="mostrarRespuesta('respuesta-div2', 'respuesta-btn2', 'ocultar-btn2')">Ver
                     Respuesta</button>
                 <div class="respuesta" id="respuesta-div2" style="display: none;">
                     <h5>Respuesta:</h5>
-                    <p>La fuerza neta es cero, ya que el satélite mantiene una velocidad constante en su órbita.</p>
+                    <p>Primero, calculemos el peso del objeto utilizando la fórmula P = m * g:
+                        P = 2 kg * 9.81 m/s² = 19.62 N<br>
+                        Luego, calculemos la normal utilizando la fórmula N = P * cos(θ) + Fa * sin(θ):<br>
+                        θ = 45 grados<br>
+                        N = 19.62 N * cos(45°) + 15N * sin(45°)<br>
+                        N = 24.48 N<br>
+                        Calculando el valor de f<sub>f</sub>:<br>
+                        f<sub>f</sub> = μ * N<br>
+                        f<sub>f</sub> ≈ (0.8115 * 24.48 N)<br>
+                        f<sub>f</sub> ≈ 19.95 N<br>
+                    </p>
                 </div>
                 <button class="botones" id="ocultar-btn2"
                     onclick="ocultarRespuesta('respuesta-div2', 'respuesta-btn2', 'ocultar-btn2')"

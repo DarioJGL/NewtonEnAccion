@@ -91,6 +91,7 @@ header .titulo {
         order: 1;
     }
     .ley3-pagina {
+        width: 384px;
         margin: 0;
     }
     .plays {
@@ -98,5 +99,8 @@ header .titulo {
     }
     .ley3 {
         width: 25%;
+    }
+    .containerCalculadora {
+        width: 384px;
     }
 }

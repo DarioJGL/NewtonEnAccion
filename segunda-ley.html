@@ -71,7 +71,7 @@
                     <label for="masa">Introduce la masa Kg:</label>
                     <input name="masa" type="number" id="masa">
 
-                    <label for="aceleracion">Introduce la aceleración m/s^2:</label>
+                    <label for="aceleracion">Introduce la aceleración m/s²:</label>
                     <input name="aceleracion" type="number" id="aceleracion">
 
                     <button class="botones" onclick="calcular()">Calcular</button>
@@ -88,27 +88,25 @@
         <div class="ejercicios">
             <div>
                 <h4>Ejemplo:</h4>
-                <p><strong>Ej.</strong> Un objeto de 5 kg está en reposo sobre una superficie horizontal sin fricción.
-                    ¿Cuál
-                    es la fuerza neta
-                    que actúa sobre el objeto?</p>
+                <p><strong>Ej.</strong> Un objeto de 2 kg tiene una aceleración de 3 m/s². ¿Cuál es la fuerza neta que
+                    actúa sobre el objeto?Un objeto de 2 kg tiene una aceleración de 3 m/s². ¿Cuál es la fuerza neta que
+                    actúa sobre el objeto?</p>
                 <div>
                     <h5>Respuesta:</h5>
-                    La fuerza neta es cero, ya que el objeto está en reposo y no hay fuerzas externas actuando sobre él.
+                    La fuerza neta es 6 N, calculada utilizando la fórmula F = m x a.
                     </p>
                 </div>
             </div>
 
             <div>
                 <h4>Ejercicio 1:</h4>
-                <p><strong>1.</strong> Un automóvil se desplaza a una velocidad constante de 100 km/h en una autopista
-                    recta y nivelada. ¿Cuál es la fuerza neta que actúa sobre el automóvil?</p>
+                <p><strong>1.</strong> Un objeto de 10 kg se le aplica una fuerza neta de 50 N. ¿Cuál es la aceleración del objeto?</p>
                 <button class="botones btn-respuesta" id="respuesta-btn1"
-                    onclick="mostrarRespuesta('respuesta-div1', 'respuesta-btn1', 'ocultar-btn1')">Ver Respuesta</button>
+                    onclick="mostrarRespuesta('respuesta-div1', 'respuesta-btn1', 'ocultar-btn1')">Ver
+                    Respuesta</button>
                 <div class="respuesta" id="respuesta-div1" style="display: none;">
                     <h5>Respuesta:</h5>
-                    <p>La fuerza neta es cero, ya que el automóvil se mueve a velocidad constante sin aceleración y sin
-                        fuerzas externas.</p>
+                    <p>La aceleración es 5 m/s², utilizando la fórmula a = F / m.</p>
                 </div>
                 <button class="botones" id="ocultar-btn1"
                     onclick="ocultarRespuesta('respuesta-div1', 'respuesta-btn1', 'ocultar-btn1')"
@@ -117,14 +115,13 @@
 
             <div>
                 <h4>Ejercicio 2:</h4>
-                <p><strong>2.</strong> Un satélite orbita alrededor de la Tierra sin cambiar su velocidad. ¿Cuál es la
-                    fuerza neta que actúa sobre el satélite?</p>
+                <p><strong>2.</strong> Un cohete lanzado con una fuerza neta de 100000 N experimenta una aceleración de 20 m/s². ¿Cuál es la masa del cohete?</p>
                 <button class="botones btn-respuesta" id="respuesta-btn2"
                     onclick="mostrarRespuesta('respuesta-div2', 'respuesta-btn2', 'ocultar-btn2')">Ver
                     Respuesta</button>
                 <div class="respuesta" id="respuesta-div2" style="display: none;">
                     <h5>Respuesta:</h5>
-                    <p>La fuerza neta es cero, ya que el satélite mantiene una velocidad constante en su órbita.</p>
+                    <p>La masa es 5000 Kg, utilizando la formula m = F / a.</p>
                 </div>
                 <button class="botones" id="ocultar-btn2"
                     onclick="ocultarRespuesta('respuesta-div2', 'respuesta-btn2', 'ocultar-btn2')"
@@ -133,7 +130,7 @@
 
         </div>
     </div>
-    
+
     <footer>
         <div class="footer">
             <p>&copy Copyright 2023-Newton en acción </p>
