@@ -38,7 +38,7 @@
     text-transform: uppercase;
     padding: 2rem;
 }
-.introducion p {
+p {
     text-align: justify;
     margin: 0.2rem;
 }
@@ -47,7 +47,6 @@
     flex-direction: column;
     align-items: center;
 }
-
 .Leyes {
     display: flex;
     flex-direction: row;
@@ -118,6 +117,9 @@
     box-shadow: 2px 2px 4px #dd7017, -2px -2px 4px #dd7017, 2px -2px 4px #dd7017,
         -2px 2px 4px #dd7017;
 }
+.containerVideo {
+    margin: 1.5rem;
+}
 
 .containerVideo:hover {
     transform: scale(1.03);
@@ -144,6 +146,38 @@
     background-color: #1280c0;
     color: rgb(255, 255, 255);
     padding: 0.6rem;
+}
+.tituloEjercicios {
+    display: flex;
+    align-items: flex-start;
+    width: 960px;
+    margin: 1rem;
+}
+
+.tituloEjercicios h3 {
+    margin: 0;
+    align-self: flex-start;
+}
+.ejercicios {
+    width: 960px;
+    height: 400px;
+    overflow: scroll;
+    margin: 1rem;
+    margin-top: 0.2rem;
+    padding: 2rem;
+    box-shadow: 2px 2px 4px #dd7017, -2px -2px 4px #dd7017, 2px -2px 4px #dd7017,
+        -2px 2px 4px #dd7017;
+    
+}
+.ejercicios div {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.btn-respuesta{
+    margin: 1rem 0rem;
 }
 footer {
     background-color: var(--color-naranja);
@@ -184,21 +218,21 @@ footer p {
         width: 384px;
         height: 216px;
     }
-    
-    .titulo{
+
+    .titulo {
         order: 1;
     }
-    .botones{ 
+    .botones {
         order: 2;
     }
-    .app-btn{
+    .app-btn {
         display: flex;
         flex-direction: column;
     }
-    .botonesAPP{
+    .botonesAPP {
         margin-bottom: 1rem;
     }
-    .plays{
+    .plays {
         width: 100%;
         text-align: center;
     }

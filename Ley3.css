@@ -18,16 +18,18 @@ header .titulo {
 .btn-delante {
     margin-right: 1rem;
 }
-.ley3{
+.ley3 {
     width: 15%;
 }
-.ley2-pagina{
+.ley3-pagina {
+    width: 960px;
     border: 2px solid var(--color-azul);
     border-radius: 5px;
     margin: 2rem;
     box-shadow: 2px 2px 4px var(--color-azul);
 }
-.containerCalculadora{
+.containerCalculadora {
+    width: 960px;
     border: 2px solid var(--color-azul);
     border-radius: 5px;
     padding: 2rem;
@@ -40,27 +42,28 @@ header .titulo {
     background-color: #2d9cdb;
     padding-left: 1rem;
     padding-top: 1rem;
-    box-shadow: 2px 2px 4px #dd7017, -2px -2px 4px #dd7017, 2px -2px 4px #dd7017,-2px 2px 4px #dd7017;
+    box-shadow: 2px 2px 4px #dd7017, -2px -2px 4px #dd7017, 2px -2px 4px #dd7017,
+        -2px 2px 4px #dd7017;
     border-radius: 5px;
     font-weight: bold;
     border: 1px solid #dd7017;
     margin: 2rem auto;
 }
-.calculadora input{
+.calculadora input {
     width: 15rem;
-    margin-bottom: 0.8rem ;
+    margin-bottom: 0.8rem;
     margin-top: 0.4rem;
     border-radius: 5px;
     border: 1px solid #dd7017;
 }
-.calculadora .botones{
-   margin-top: 1rem ;
+.calculadora .botones {
+    margin-top: 1rem;
     width: 15rem;
 }
-.resultado{
+.resultado {
     margin-bottom: 1rem;
 }
-.introducion{
+.introducion {
     margin: 1rem;
 }
 @media screen and (max-width: 768px) {
@@ -68,34 +71,32 @@ header .titulo {
         display: flex;
         flex-direction: column;
     }
-    .logo{
+    .logo {
         margin: 0;
         margin-left: 4rem;
     }
-    .extras{
+    .extras {
         margin: 1rem;
         margin-right: 0;
-        
     }
-    .titulo{
+    .titulo {
         padding: 0.7rem;
         margin: 0;
     }
-    .botones{
+    .botones {
         margin: 0.5rem;
     }
-    .inicio-btn{
+    .inicio-btn {
         width: 186.64px;
         order: 1;
     }
-    .ley3-pagina{
+    .ley3-pagina {
         margin: 0;
     }
-    .plays{
+    .plays {
         width: 186.64px;
     }
-    .ley3{
+    .ley3 {
         width: 25%;
     }
-
 }

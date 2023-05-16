@@ -19,12 +19,14 @@ header .titulo {
     margin-left: 1rem;
 }
 .ley2-pagina{
+    width: 960px;
     border: 2px solid var(--color-azul);
     border-radius: 5px;
     margin: 2rem;
     box-shadow: 2px 2px 4px var(--color-azul);
 }
 .containerCalculadora{
+    width: 960px;
     border: 2px solid var(--color-azul);
     border-radius: 5px;
     padding: 2rem;

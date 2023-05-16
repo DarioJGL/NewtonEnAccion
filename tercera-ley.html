@@ -53,7 +53,7 @@
 
         </div>
         <div>
-            <img class="ley2-pagina" src="img/diagrama-cuerpo-libre-ejemplo.jpg" alt="f*a" width="600px">
+            <img class="ley3-pagina" src="img/diagrama-cuerpo-libre-ejemplo.jpg" alt="f*a" width="600px">
         </div>
         <div class="containerCalculadora">
             <h3>Formulas</h3>
@@ -97,8 +97,57 @@
 
         </div>
 
+        <div class="tituloEjercicios">
+            <h3>Ejercicios</h3>
+        </div>
 
+        <div class="ejercicios">
+            <div>
+                <h4>Ejemplo:</h4>
+                <p><strong>Ej.</strong> Un objeto de 5 kg está en reposo sobre una superficie horizontal sin fricción.
+                    ¿Cuál
+                    es la fuerza neta
+                    que actúa sobre el objeto?</p>
+                <div>
+                    <h5>Respuesta:</h5>
+                    La fuerza neta es cero, ya que el objeto está en reposo y no hay fuerzas externas actuando sobre él.
+                    </p>
+                </div>
+            </div>
 
+            <div>
+                <h4>Ejercicio 1:</h4>
+                <p><strong>1.</strong> Un automóvil se desplaza a una velocidad constante de 100 km/h en una autopista
+                    recta y nivelada. ¿Cuál es la fuerza neta que actúa sobre el automóvil?</p>
+                <button class="botones btn-respuesta" id="respuesta-btn1"
+                    onclick="mostrarRespuesta('respuesta-div1', 'respuesta-btn1', 'ocultar-btn1')">Ver Respuesta</button>
+                <div class="respuesta" id="respuesta-div1" style="display: none;">
+                    <h5>Respuesta:</h5>
+                    <p>La fuerza neta es cero, ya que el automóvil se mueve a velocidad constante sin aceleración y sin
+                        fuerzas externas.</p>
+                </div>
+                <button class="botones" id="ocultar-btn1"
+                    onclick="ocultarRespuesta('respuesta-div1', 'respuesta-btn1', 'ocultar-btn1')"
+                    style="display: none;">Ocultar Respuesta</button>
+            </div>
+
+            <div>
+                <h4>Ejercicio 2:</h4>
+                <p><strong>2.</strong> Un satélite orbita alrededor de la Tierra sin cambiar su velocidad. ¿Cuál es la
+                    fuerza neta que actúa sobre el satélite?</p>
+                <button class="botones btn-respuesta" id="respuesta-btn2"
+                    onclick="mostrarRespuesta('respuesta-div2', 'respuesta-btn2', 'ocultar-btn2')">Ver
+                    Respuesta</button>
+                <div class="respuesta" id="respuesta-div2" style="display: none;">
+                    <h5>Respuesta:</h5>
+                    <p>La fuerza neta es cero, ya que el satélite mantiene una velocidad constante en su órbita.</p>
+                </div>
+                <button class="botones" id="ocultar-btn2"
+                    onclick="ocultarRespuesta('respuesta-div2', 'respuesta-btn2', 'ocultar-btn2')"
+                    style="display: none;">Ocultar Respuesta</button>
+            </div>
+
+        </div>
 
     </div>
 
@@ -109,6 +158,29 @@
     </footer>
 
 </body>
+<script>
+    function mostrarRespuesta(respuestaDivId, respuestaBtnId, ocultarBtnId) {
+        var respuestaDiv = document.getElementById(respuestaDivId);
+        respuestaDiv.style.display = "block";
+
+        var respuestaBtn = document.getElementById(respuestaBtnId);
+        respuestaBtn.style.display = "none";
+
+        var ocultarBtn = document.getElementById(ocultarBtnId);
+        ocultarBtn.style.display = "block";
+    }
+
+    function ocultarRespuesta(respuestaDivId, respuestaBtnId, ocultarBtnId) {
+        var respuestaDiv = document.getElementById(respuestaDivId);
+        respuestaDiv.style.display = "none";
+
+        var respuestaBtn = document.getElementById(respuestaBtnId);
+        respuestaBtn.style.display = "block";
+
+        var ocultarBtn = document.getElementById(ocultarBtnId);
+        ocultarBtn.style.display = "none";
+    }
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
