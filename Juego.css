@@ -8,9 +8,7 @@
     margin-right: 1rem;
     
 }
-.juego{
-    width: 15%;
-}
+
 .containerIframe1{
     border: 2px solid var(--color-naranja);
     border-radius: 5px;
@@ -45,9 +43,7 @@
         margin: 0;
         margin-left: 2rem;
     }
-    .extras{
-        margin: 1rem;
-    }
+    
     .titulo{
         padding: 0.7rem;
         margin: 0;

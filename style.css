@@ -12,6 +12,14 @@
     box-shadow: 2px 2px 4px var(--color-naranja);
     width: 100%;
 }
+.cab-central div {
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.div-logo {
+    margin-left: 200px;
+}
 
 .cabezera div {
     display: flex;
@@ -20,10 +28,17 @@
 .inicio {
     margin: auto;
 }
-
+.inicio2 {
+    margin-right: 2rem;
+}
+.ti-inicio {
+    margin-left: 5rem;
+}
+.foto {
+    height: 100px;
+}
 .logo {
     width: 100px;
-    height: 100px;
     border-radius: 5%;
     margin: 1.5rem;
     margin-bottom: 1.5rem;
@@ -153,7 +168,7 @@ p {
     width: 960px;
     margin: 1rem;
 }
-.containerEjercicios{
+.containerEjercicios {
     margin: auto;
 }
 
@@ -193,6 +208,21 @@ footer p {
 .footer {
     margin: auto;
 }
+.menu {
+    background-color: var(--color-naranja);
+}
+.offcanvas-header {
+    background-color: var(--color-azul);
+    width: 100%;
+}
+.offcanvas {
+    max-width: 200px;
+    height: 400px;
+    border-radius: 5px;
+}
+#logo-margin {
+    margin-left: 160px;
+}
 
 @media screen and (max-width: 500px) {
     .introducion p {
@@ -205,29 +235,10 @@ footer p {
     .Leyes {
         flex-direction: column;
     }
-    .video {
-        width: 384px;
-        height: 216px;
-    }
-    .ley2-pagina {
-        width: 384px;
-        height: 216px;
-    }
-    .ley3-pagina {
-        width: 384px;
-        height: 216px;
-    }
-    .gif {
-        width: 384px;
-        height: 216px;
-    }
-    .ejercicios {
-        width: 384px;
-        height: 450px;
-    }
 
     .titulo {
         order: 1;
+        font-size: 18px;
     }
     .botones {
         order: 2;
@@ -243,9 +254,16 @@ footer p {
         width: 100%;
         text-align: center;
     }
+    .video, .gif{
+        width: 327px;
+        height: 212px;
+    }
     footer {
         margin-top: 1rem;
         align-items: center;
+    }
+    #logo-margin {
+        margin-left: 0px;
     }
 }
 @media screen and (max-width: 450px) {

@@ -37,16 +37,9 @@ h6 {
 p {
     margin: 0.2rem;
 }
-ul {
-    padding: 0;
-    margin: 0;
-}
-ul li {
-    margin: 2rem;
-}
-.apli {
-    width: 25%;
-}
+
+
+
 @media screen and (max-width: 500px) {
     .container {
         width: 90%;

@@ -1,56 +1,37 @@
-body .cabezera {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-content: center;
-    background-color: #2d9cdb;
-}
-
 header .btn {
     display: inline-block;
-    
 }
 
 header .titulo {
     display: inline-block;
-    
 }
-.gif{
-    box-shadow: 2px 2px 4px var(--color-azul), -2px -2px 4px var(--color-azul), 2px -2px 4px var(--color-azul),
-    -2px 2px 4px var(--color-azul);
-    
+.gif {
+    box-shadow: 2px 2px 4px var(--color-azul), -2px -2px 4px var(--color-azul),
+        2px -2px 4px var(--color-azul), -2px 2px 4px var(--color-azul);
 }
-.ley1{
-    width: 24%;
 
-}
-.introducion{
+.introducion {
     margin: 1rem;
 }
 @media screen and (max-width: 768px) {
-    .cabezera div div {
-        display: flex;
-        flex-direction: column;
-    }
-    .logo{
-        margin: 0;
-        margin-left: 2rem;
-    }
-    .extras{
-        margin: 1rem;
-    }
-    .titulo{
-        padding: 0.7rem;
-        margin: 0;
-    }
-    .botones{
-        margin: 0.5rem;
-    }
-    .inicio-btn{
-        width: 186.64px;
+    .container div {
+        width: 90%;
     }
 
+    .tituloEjercicios {
+        margin-bottom: 1rem;
+    }
+    .ejercicios div {
+        width: 100%;
+    }
+
+    .gif,
+    .video,
+    .ley2-pagina,
+    ley3-pagina {
+        width: 100%;
+    }
+    .video {
+        height: 200px;
+    }
 }
-
-

@@ -15,17 +15,14 @@ header .titulo {
     display: inline-block;
 }
 
-.btn-atras {
-    margin-left: 1rem;
-}
-.ley2-pagina{
+.ley2-pagina {
     width: 960px;
     border: 2px solid var(--color-azul);
     border-radius: 5px;
     margin: 2rem;
     box-shadow: 2px 2px 4px var(--color-azul);
 }
-.containerCalculadora{
+.containerCalculadora {
     width: 960px;
     border: 2px solid var(--color-azul);
     border-radius: 5px;
@@ -46,48 +43,44 @@ header .titulo {
     border: 1px solid #dd7017;
     margin: 2rem auto;
 }
-.calculadora input{
+.calculadora input {
     width: 15rem;
-    margin-bottom: 0.8rem ;
+    margin-bottom: 0.8rem;
     margin-top: 0.4rem;
     border-radius: 5px;
     border: 1px solid #dd7017;
 }
-.calculadora .botones{
-    margin-bottom: 0.8rem ;
+.calculadora .botones {
+    margin-bottom: 0.8rem;
     width: 15rem;
 }
-.introducion{
+.introducion {
     margin: 1rem;
+}
+.menu {
+    background-color: var(--color-naranja);
 }
 
 @media screen and (max-width: 768px) {
-    .cabezera div div {
-        display: flex;
-        flex-direction: column;
+    .container  {
+        width: 90%;
     }
-    .logo{
-        margin: 0;
-        margin-left: 2rem;
+
+    .tituloEjercicios {
+        width: 100%;
+
     }
-    .extras{
-        margin: 1rem;
-    }
-    .titulo{
-        padding: 0.7rem;
-        margin: 0;
-    }
-    .botones{
-        margin: 0.5rem;
-    }
-    .inicio-btn{
-        width: 178.92px;
-    }
-    .ley2-pagina{
-        width: 384px;
-        margin: 0;
+    .ejercicios {
+        width: 100%;
     }
     .containerCalculadora{
-        width: 384px;
+        width: 100%;
     }
+    .gif,
+    .ley2-pagina,
+    .ley3-pagina {
+        width: 100%;
+        margin: auto;
+    }
+     
 }
