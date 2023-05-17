@@ -1,0 +1,73 @@
+.container {
+    margin-top: 2rem;
+}
+.div3 {
+    margin-top: 4rem;
+}
+.div2 h6 {
+    margin-bottom: 1.5rem;
+}
+.img-izq {
+    border-radius: 5px;
+    width: 200px;
+    float: left;
+    margin-right: 1rem;
+    box-shadow: 2px 2px 4px #dd7017, -2px -2px 4px #dd7017, 2px -2px 4px #dd7017,
+        -2px 2px 4px #dd7017;
+}
+.img-der {
+    border-radius: 5px;
+    width: 250px;
+    float: right;
+    margin-left: 1rem;
+    box-shadow: 2px 2px 4px var(--color-azul), -2px -2px 4px var(--color-azul),
+        2px -2px 4px var(--color-azul), -2px 2px 4px var(--color-azul);
+}
+.img-legado {
+    width: 400px;
+}
+h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.2rem;
+}
+h6 {
+    margin: 0.8rem;
+    margin-left: 0;
+}
+p {
+    margin: 0.2rem;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    margin: 2rem;
+}
+.apli {
+    width: 25%;
+}
+@media screen and (max-width: 500px) {
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+    .informacion {
+        width: 90%;
+    }
+    .img-izq {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 1rem ;
+    }
+    .img-der {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 1rem ;
+    }
+    .img-legado {
+        width: 250px;
+    }
+}
